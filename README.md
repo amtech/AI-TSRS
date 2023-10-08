@@ -9,7 +9,8 @@ In order to set your environment up to run the code here, first install all requ
 ``!pip install -r requirements.txt``
 
 ``%cd privateGPT``
-``!pip install poetry``
+
+```!pip install poetry```
 
 
 Then, download the LLM model and place it in the models directory in privateGPT folder
