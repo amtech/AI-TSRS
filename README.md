@@ -60,20 +60,7 @@ Run the following command to ingest all the data.
 
 run ingest.py
 
-Output should look like this:
-
-```shell
-Creating new vectorstore
-Loading documents from source_documents
-Loading new documents: 100%|██████████████████████| 1/1 [00:01<00:00,  1.73s/it]
-Loaded 1 new documents from source_documents
-Split into 90 chunks of text (max. 500 tokens each)
-Creating embeddings. May take some minutes...
-Using embedded DuckDB with persistence: data will be stored in: db
-Ingestion complete! You can now run privateGPT.py to query your documents
-```
-
-It will create a `db` folder containing the local vectorstore. This step is required if you are adding documents other than NASA Technical Standards which have already been ingested in the code.
+It will create a `db` folder containing the local vectorstore. 
 
 
 ## Ask questions to your documents
