@@ -6,17 +6,17 @@ This is developed for NASA Space Apps Challenge 2023 for STAR Revolutionizing Te
 Environment Setup for Google Colab
 In order to set your environment up to run the code here, first install all requirements:
 
-!pip install -r requirements.txt
+``!pip install -r requirements.txt``
 
-%cd privateGPT
-!pip install poetry
+``%cd privateGPT``
+``!pip install poetry``
 
 
 Then, download the LLM model and place it in the models directory in privateGPT folder
 - LLM: default to [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin)
 
 Copy the `example.env` template into `.env`
-cp example.env .env
+``cp example.env .env``
 
 
 and edit the variables appropriately in the `.env` file.
@@ -58,13 +58,13 @@ The supported extensions are:
 
 Run the following command to ingest all the data.
 
-run ingest.py
+``run ingest.py``
 
 It will create a `db` folder containing the local vectorstore. 
 
 
-## Ask questions to your documents
-run privateGPT.py
+## Ask your Query
+``run privateGPT.py``
 
 Here, you can either ask the questions from the model using the following input.
 
