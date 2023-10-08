@@ -17,6 +17,7 @@ Then, download the LLM model and place it in the models directory in privateGPT 
 - LLM: default to [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin)
 
 Copy the `example.env` template into `.env`
+
 ``cp example.env .env``
 
 
